@@ -91,7 +91,7 @@ class _MyAppState extends State<MyApp> {
                 Marker(
                   width: 30.0,
                   height: 30.0,
-                  point: LatLng(-20.04664,  57.52878),
+                  point: LatLng(-20.016667,  57.666667),
                   builder: (ctx) => GestureDetector(
                     onTap: () {
                       showModalBottomSheet(
@@ -100,7 +100,7 @@ class _MyAppState extends State<MyApp> {
                           return Container(
                             height: 100,
                             child: Center(
-                              child: Text('Hotel 1 : Veranda Pointe Aux Biches'),
+                              child: Text('Hotel 1 : Lux Grand Gaube'),
                             ),
                           );
                         },
@@ -120,7 +120,7 @@ class _MyAppState extends State<MyApp> {
                 Marker(
                   width: 30.0,
                   height: 30.0,
-                  point: LatLng(-20.00214, 57.65979),
+                  point: LatLng(-20.2518, 57.797585),
                   builder: (ctx) => GestureDetector(
                     onTap: () {
                       showModalBottomSheet(
@@ -129,7 +129,7 @@ class _MyAppState extends State<MyApp> {
                           return Container(
                             height: 100,
                             child: Center(
-                              child: Text('Hotel 2 : Lux Grand Gaube'),
+                              child: Text('Hotel 2 : Le Touessrok Hotel'),
                             ),
                           );
                         },
@@ -177,7 +177,7 @@ class _MyAppState extends State<MyApp> {
                 ),Marker(
                   width: 30.0,
                   height: 30.0,
-                  point: LatLng(-20.28484, 57.36444),
+                  point: LatLng(-20.1996983051, 57.7824787752),
                   builder: (ctx) => GestureDetector(
                     onTap: () {
                       showModalBottomSheet(
@@ -186,7 +186,7 @@ class _MyAppState extends State<MyApp> {
                           return Container(
                             height: 100,
                             child: Center(
-                              child: Text('Hotel 4 : Manisa Hotel Flic En Flac'),
+                              child: Text('Hotel 4 : Lux Belle Mare'),
                             ),
                           );
                         },
@@ -206,7 +206,7 @@ class _MyAppState extends State<MyApp> {
                 Marker(
                   width: 30.0,
                   height: 30.0,
-                  point: LatLng(-20.20582, 57.77744),
+                  point: LatLng(-20.4474316391, 57.3157684866),
                   builder: (ctx) => GestureDetector(
                     onTap: () {
                       showModalBottomSheet(
@@ -215,7 +215,7 @@ class _MyAppState extends State<MyApp> {
                           return Container(
                             height: 100,
                             child: Center(
-                              child: Text('Hotel 5 : The Residence Hotel'),
+                              child: Text('Hotel 5 : Dinarobin Beachcomber Golf Resort & Spa'),
                             ),
                           );
                         },
